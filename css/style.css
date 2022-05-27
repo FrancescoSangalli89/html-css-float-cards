@@ -5,13 +5,10 @@
     font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
-body {
-    margin: auto;
-    max-width: 1170px;
-}
-
 main {
     margin-top: 40px;
+    max-width: 1170px;
+    margin: auto;
 }
 
 h1 {
@@ -31,6 +28,7 @@ p {
 
 .card-container {
     padding-right: 15px;
+    padding-left: 15px;
     padding-bottom: 30px;
     width: calc(100% / 3);
     float: left;
@@ -48,8 +46,8 @@ p {
     box-shadow: 0px 0px 10px #0f0e16;
 }
 
-.card-container:hover {
-    transform: scale(1.1);
+.card:hover {
+    transform: scale(1.2);
 }
 
 .card img {
